@@ -1,7 +1,6 @@
 /* shared style */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .work-sans-normal {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -13,9 +12,64 @@
     margin: 0;
     padding: 0;
     font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+}
+.g3_bg { background: rgba(255, 144, 14, 0.1); }
+.g3_container { max-width: 1440px; margin: 0 auto; }
+.flex { display: flex; }
+
+/* shared color here ... */
+
+.primary_color { color: #FF900E; }
+.dark_1 { color: #131313; }
+.dark_2 { color: #424242; }
+.dark_3 { color: #727272; }
+.dark_4 { color: #131313; }
+
+.g3_button { 
+    background: #FF900E; 
+    color: #FFFFFF; 
+    padding: 20px 24px; 
+    border-radius: 8px; 
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: all .2s;
+}
+ 
+
+/* Hover Effect */
+
+.g3_button:hover {
+  background-color: #45a049;
+  border: 2px solid white;
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
-.g3_container {
-    max-width: 1440px;
-    margin: 0 auto;
+/* Header style here ... */
+
+.g3_header { justify-content: space-between; align-items: center; padding: 50px 0; }
+.g3_header h2 { font-size: 2.7rem; font-weight: bold; }
+
+.g3_navigation ul li { list-style: none; }
+.g3_navigation ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 50px;
+    font-size: 1.2rem;
 }
+
+.g3_hero_area { 
+    max-width: 62%;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+.g3_hero_area h1 { font-size: 4rem ; }
+.g3_hero_area p { font-size: 1rem; margin: 30px 0; }
+.g3_image { padding-bottom: 50px; }
+
+/* Features Section here ... */
+
