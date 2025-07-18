@@ -73,3 +73,43 @@
 
 /* Features Section here ... */
 
+.g3_features { 
+    width: 90%;
+    margin: 80px auto;
+    display: flex; 
+    align-items: center; 
+    gap: 72px;
+}
+.g3_image_gallery {display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;}
+.g3_feature_list h3 { font-size: 2.7rem; font-weight: 500; }
+.g3_feature_list h3 span { font-weight: bold; }
+.g3_feature_list p { font-size: 1rem; margin: 32px 0; line-height: 1.6rem;}
+
+
+
+
+
+/* Responsive for Mobile Device here ...... */
+ 
+@media screen and ( max-width: 576px ) {
+
+    .g3_button { padding: 16px 20px; font-size: 16px;}
+
+    .g3_header { flex-direction: column; }
+
+    .g3_header h2 {
+        font-size: 1.5rem;
+    }
+    .g3_navigation ul li a {font-size: 16px;}
+
+    .g3_features { flex-direction: column-reverse; }
+    .g3_image_gallery img { width: 100%; }
+    .g3_hero_area { max-width: 94%;}
+    .g3_hero_area h1 { font-size: 2.5rem ; }
+    
+
+}
+
+
+/* Responsive for Tablet device here .... */
+
